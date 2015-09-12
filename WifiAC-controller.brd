@@ -154,6 +154,7 @@
 <text x="30.48" y="50.8" size="1.778" layer="1" font="vector">GND</text>
 <text x="17.78" y="50.8" size="1.778" layer="1" font="vector">TX</text>
 <rectangle x1="18.669" y1="25.4" x2="22.86" y2="41.402" layer="41"/>
+<text x="2.54" y="2.54" size="1.9304" layer="1" font="vector" ratio="11">Mosab Wadea</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
