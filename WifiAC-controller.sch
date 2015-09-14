@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2774,7 +2774,7 @@ SMT- SWCH-08247</description>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="RST" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="TX_RX" library="SparkFun-Connectors" deviceset="M03" device="LONGPADS"/>
+<part name="TX_RX" library="SparkFun-Connectors" deviceset="M03" device="LONGPADS" value="UART"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="PROG_JUMP" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2802,11 +2802,11 @@ SMT- SWCH-08247</description>
 <text x="5.08" y="30.48" size="2.1844" layer="114" font="vector">This is a circuit that is implemented to make the AC controller in my room controlled using the wifi.</text>
 <text x="5.08" y="25.4" size="2.1844" layer="114" font="vector">The PROG_JUMP is a jumper used to change the mode of the chip in case a reprogramming is needed.</text>
 <text x="5.08" y="20.32" size="2.1844" layer="114" font="vector">The ESP packge is imported from the lib ESP-12.lbr</text>
-<text x="228.6" y="162.56" size="2.54" layer="114">p58 -&gt; GPIO11</text>
-<text x="228.6" y="157.48" size="2.54" layer="114">p59 -&gt; GPIO7</text>
-<text x="228.6" y="152.4" size="2.54" layer="114">p5 -&gt; GPIO9</text>
-<text x="228.6" y="147.32" size="2.54" layer="114">p6 -&gt; GPIO10</text>
-<text x="228.6" y="142.24" size="2.54" layer="114">p7 -&gt; GPIO8</text>
+<text x="228.6" y="162.56" size="2.54" layer="114">p58 -&gt; GPIO9</text>
+<text x="228.6" y="157.48" size="2.54" layer="114">p59 -&gt; GPIO10</text>
+<text x="228.6" y="152.4" size="2.54" layer="114">p5 -&gt; GPIO0</text>
+<text x="228.6" y="147.32" size="2.54" layer="114">p6 -&gt; GPIO5</text>
+<text x="228.6" y="142.24" size="2.54" layer="114">p7 -&gt; GPIO4</text>
 <wire x1="222.25" y1="179.07" x2="222.25" y2="96.52" width="0.1524" layer="94"/>
 <text x="228.6" y="128.27" size="2.54" layer="114">pwr -&gt; GPIO16</text>
 <text x="228.6" y="123.19" size="2.54" layer="114">fan -&gt; GPIO12</text>
@@ -2950,9 +2950,9 @@ SMT- SWCH-08247</description>
 <label x="248.92" y="85.09" size="1.6764" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP-12E" gate="G$1" pin="P$17"/>
-<wire x1="134.62" y1="109.22" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-<label x="134.62" y="104.14" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="ESP-12E" gate="G$1" pin="P$19"/>
+<wire x1="144.78" y1="109.22" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
+<label x="144.78" y="104.14" size="1.6764" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="P59" class="0">
@@ -2977,9 +2977,9 @@ SMT- SWCH-08247</description>
 <label x="214.63" y="53.34" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP-12E" gate="G$1" pin="P$18"/>
-<wire x1="139.7" y1="109.22" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<label x="139.7" y="104.14" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="ESP-12E" gate="G$1" pin="P$20"/>
+<wire x1="149.86" y1="109.22" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
+<label x="149.86" y="104.14" size="1.6764" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="P5" class="0">
@@ -2994,9 +2994,14 @@ SMT- SWCH-08247</description>
 <label x="154.94" y="53.34" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP-12E" gate="G$1" pin="P$19"/>
-<wire x1="144.78" y1="109.22" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
-<label x="144.78" y="104.14" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="PROG_JUMP" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
+<label x="38.1" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ESP-12E" gate="G$1" pin="P$5"/>
+<wire x1="114.3" y1="137.16" x2="107.95" y2="137.16" width="0.1524" layer="91"/>
+<label x="107.95" y="137.16" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="P6" class="0">
@@ -3011,9 +3016,9 @@ SMT- SWCH-08247</description>
 <label x="248.92" y="53.34" size="1.6764" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP-12E" gate="G$1" pin="P$20"/>
-<wire x1="149.86" y1="109.22" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
-<label x="149.86" y="104.14" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="ESP-12E" gate="G$1" pin="P$3"/>
+<wire x1="114.3" y1="147.32" x2="107.95" y2="147.32" width="0.1524" layer="91"/>
+<label x="107.95" y="147.32" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="P7" class="0">
@@ -3033,9 +3038,9 @@ SMT- SWCH-08247</description>
 <label x="189.23" y="85.09" size="1.6764" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP-12E" gate="G$1" pin="P$21"/>
-<wire x1="154.94" y1="109.22" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="154.94" y="104.14" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="ESP-12E" gate="G$1" pin="P$4"/>
+<wire x1="114.3" y1="142.24" x2="107.95" y2="142.24" width="0.1524" layer="91"/>
+<label x="107.95" y="142.24" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO16" class="0">
@@ -3110,18 +3115,6 @@ SMT- SWCH-08247</description>
 <pinref part="ESP-12E" gate="G$1" pin="P$2"/>
 <wire x1="91.44" y1="162.56" x2="91.44" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GPIO0" class="0">
-<segment>
-<pinref part="ESP-12E" gate="G$1" pin="P$5"/>
-<wire x1="114.3" y1="137.16" x2="107.95" y2="137.16" width="0.1524" layer="91"/>
-<label x="107.95" y="137.16" size="1.6764" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="PROG_JUMP" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<label x="38.1" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
