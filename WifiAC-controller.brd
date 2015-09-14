@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -34,9 +34,9 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -66,6 +66,7 @@
 <layer number="101" name="Mill_Isol1" color="6" fill="9" visible="no" active="yes"/>
 <layer number="102" name="Mill_Pour102" color="5" fill="9" visible="no" active="yes"/>
 <layer number="103" name="Mill_Out103" color="7" fill="9" visible="no" active="yes"/>
+<layer number="104" name="millref" color="24" fill="8" visible="no" active="yes"/>
 <layer number="114" name="desc" color="9" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Mill_Isol16" color="6" fill="11" visible="no" active="yes"/>
 <layer number="117" name="Mill_Pour117" color="3" fill="11" visible="no" active="yes"/>
@@ -99,44 +100,44 @@
 <text x="20.32" y="52.07" size="1.778" layer="1" font="vector">TX</text>
 <rectangle x1="21.209" y1="26.67" x2="25.4" y2="42.672" layer="41"/>
 <text x="5.08" y="3.81" size="1.9304" layer="1" font="vector" ratio="11">Mosab Wadea</text>
-<circle x="31.75" y="7.62" radius="0.0564" width="0.7" layer="45"/>
-<circle x="31.75" y="15.24" radius="0.0564" width="0.7" layer="45"/>
-<circle x="31.75" y="39.37" radius="0.05" width="0.7" layer="45"/>
-<circle x="29.21" y="7.62" radius="0.0564" width="0.7" layer="45"/>
-<circle x="29.21" y="15.24" radius="0.0564" width="0.7" layer="45"/>
-<circle x="26.67" y="7.62" radius="0.0564" width="0.7" layer="45"/>
-<circle x="26.67" y="15.24" radius="0.0564" width="0.7" layer="45"/>
-<circle x="24.13" y="7.62" radius="0.0564" width="0.7" layer="45"/>
-<circle x="24.13" y="15.24" radius="0.0564" width="0.7" layer="45"/>
-<circle x="24.13" y="34.29" radius="0.05" width="0.7" layer="45"/>
-<circle x="21.59" y="7.62" radius="0.0564" width="0.7" layer="45"/>
-<circle x="21.59" y="15.24" radius="0.0564" width="0.7" layer="45"/>
-<circle x="20.32" y="36.83" radius="0.05" width="0.7" layer="45"/>
-<circle x="19.05" y="7.62" radius="0.0564" width="0.7" layer="45"/>
-<circle x="19.05" y="15.24" radius="0.0564" width="0.7" layer="45"/>
-<circle x="16.51" y="7.62" radius="0.0564" width="0.7" layer="45"/>
-<circle x="16.51" y="15.24" radius="0.0564" width="0.7" layer="45"/>
-<circle x="8.89" y="5.08" radius="0.05" width="0.7" layer="45"/>
-<circle x="7.62" y="12.7" radius="0.05" width="0.7" layer="45"/>
-<circle x="5.08" y="20.32" radius="0.05" width="0.7" layer="45"/>
-<circle x="41.91" y="40.64" radius="0.1" width="0.7" layer="45"/>
-<circle x="41.91" y="50.8" radius="0.1" width="0.7" layer="45"/>
-<circle x="52.07" y="46.863" radius="0.158" width="0.7" layer="45"/>
-<circle x="52.07" y="49.657" radius="0.158" width="0.7" layer="45"/>
-<circle x="44.45" y="11.303" radius="0.158" width="0.7" layer="45"/>
-<circle x="44.45" y="14.097" radius="0.158" width="0.7" layer="45"/>
-<circle x="10.16" y="45.72" radius="0.158" width="0.7" layer="45"/>
-<circle x="10.16" y="48.26" radius="0.158" width="0.7" layer="45"/>
-<circle x="10.16" y="50.8" radius="0.158" width="0.7" layer="45"/>
-<circle x="7.62" y="45.72" radius="0.158" width="0.7" layer="45"/>
-<circle x="7.62" y="48.26" radius="0.158" width="0.7" layer="45"/>
-<circle x="7.62" y="50.8" radius="0.158" width="0.7" layer="45"/>
-<circle x="53.34" y="25.4" radius="0.2088" width="0.7" layer="45"/>
-<circle x="53.34" y="27.94" radius="0.2088" width="0.7" layer="45"/>
-<circle x="53.34" y="30.48" radius="0.2088" width="0.7" layer="45"/>
-<circle x="34.29" y="50.8" radius="0.2088" width="0.7" layer="45"/>
-<circle x="31.75" y="50.8" radius="0.2088" width="0.7" layer="45"/>
-<circle x="29.21" y="50.8" radius="0.2088" width="0.7" layer="45"/>
+<circle x="31.75" y="7.62" radius="0.0564" width="0.7" layer="145"/>
+<circle x="31.75" y="15.24" radius="0.0564" width="0.7" layer="145"/>
+<circle x="31.75" y="39.37" radius="0.05" width="0.7" layer="145"/>
+<circle x="29.21" y="7.62" radius="0.0564" width="0.7" layer="145"/>
+<circle x="29.21" y="15.24" radius="0.0564" width="0.7" layer="145"/>
+<circle x="26.67" y="7.62" radius="0.0564" width="0.7" layer="145"/>
+<circle x="26.67" y="15.24" radius="0.0564" width="0.7" layer="145"/>
+<circle x="24.13" y="7.62" radius="0.0564" width="0.7" layer="145"/>
+<circle x="24.13" y="15.24" radius="0.0564" width="0.7" layer="145"/>
+<circle x="24.13" y="34.29" radius="0.05" width="0.7" layer="145"/>
+<circle x="21.59" y="7.62" radius="0.0564" width="0.7" layer="145"/>
+<circle x="21.59" y="15.24" radius="0.0564" width="0.7" layer="145"/>
+<circle x="20.32" y="36.83" radius="0.05" width="0.7" layer="145"/>
+<circle x="19.05" y="7.62" radius="0.0564" width="0.7" layer="145"/>
+<circle x="19.05" y="15.24" radius="0.0564" width="0.7" layer="145"/>
+<circle x="16.51" y="7.62" radius="0.0564" width="0.7" layer="145"/>
+<circle x="16.51" y="15.24" radius="0.0564" width="0.7" layer="145"/>
+<circle x="8.89" y="5.08" radius="0.05" width="0.7" layer="145"/>
+<circle x="7.62" y="12.7" radius="0.05" width="0.7" layer="145"/>
+<circle x="5.08" y="20.32" radius="0.05" width="0.7" layer="145"/>
+<circle x="41.91" y="40.64" radius="0.1" width="0.7" layer="145"/>
+<circle x="41.91" y="50.8" radius="0.1" width="0.7" layer="145"/>
+<circle x="52.07" y="46.863" radius="0.158" width="0.7" layer="145"/>
+<circle x="52.07" y="49.657" radius="0.158" width="0.7" layer="145"/>
+<circle x="44.45" y="11.303" radius="0.158" width="0.7" layer="145"/>
+<circle x="44.45" y="14.097" radius="0.158" width="0.7" layer="145"/>
+<circle x="10.16" y="45.72" radius="0.158" width="0.7" layer="145"/>
+<circle x="10.16" y="48.26" radius="0.158" width="0.7" layer="145"/>
+<circle x="10.16" y="50.8" radius="0.158" width="0.7" layer="145"/>
+<circle x="7.62" y="45.72" radius="0.158" width="0.7" layer="145"/>
+<circle x="7.62" y="48.26" radius="0.158" width="0.7" layer="145"/>
+<circle x="7.62" y="50.8" radius="0.158" width="0.7" layer="145"/>
+<circle x="53.34" y="25.4" radius="0.2088" width="0.7" layer="145"/>
+<circle x="53.34" y="27.94" radius="0.2088" width="0.7" layer="145"/>
+<circle x="53.34" y="30.48" radius="0.2088" width="0.7" layer="145"/>
+<circle x="34.29" y="50.8" radius="0.2088" width="0.7" layer="145"/>
+<circle x="31.75" y="50.8" radius="0.2088" width="0.7" layer="145"/>
+<circle x="29.21" y="50.8" radius="0.2088" width="0.7" layer="145"/>
 <wire x1="8.944003125" y1="45.216315625" x2="8.944003125" y2="46.22368125" width="0.4" layer="116"/>
 <wire x1="8.944003125" y1="46.22368125" x2="9.65631875" y2="46.935996875" width="0.4" layer="116"/>
 <wire x1="9.65631875" y1="46.935996875" x2="10.663684375" y2="46.935996875" width="0.4" layer="116"/>
@@ -11906,8 +11907,8 @@
 <wire x1="57.4879" y1="-1.016015625" x2="59.892096875" y2="-1.016015625" width="2" layer="103"/>
 <dimension x1="59.69" y1="55.88" x2="0" y2="55.87" x3="29.844146875" y3="60.95989375" textsize="1.4224" layer="20"/>
 <dimension x1="0" y1="0" x2="0" y2="55.88" x3="-6.35" y3="27.94" textsize="1.4224" layer="20"/>
-<circle x="-13.97" y="28.575" radius="0.0254" width="5.08" layer="20"/>
-<circle x="73.66" y="28.575" radius="0.0254" width="5.08" layer="20"/>
+<circle x="-13.97" y="28.575" radius="0.0254" width="5.08" layer="104"/>
+<circle x="73.66" y="28.575" radius="0.0254" width="5.08" layer="104"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
