@@ -2882,10 +2882,10 @@ SMT- SWCH-08247</description>
 <label x="186.69" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PROG_JUMP" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="68.58" x2="59.69" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="59.69" y1="68.58" x2="59.69" y2="69.85" width="0.1524" layer="91"/>
 <label x="59.69" y="69.85" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
+<wire x1="59.69" y1="69.85" x2="59.69" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="PROG_JUMP" gate="G$1" pin="4"/>
+<wire x1="59.69" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2921,16 +2921,15 @@ SMT- SWCH-08247</description>
 <wire x1="88.9" y1="162.56" x2="88.9" y2="151.13" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="57.15" y1="64.77" x2="59.69" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="59.69" y1="64.77" x2="59.69" y2="62.23" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="PROG_JUMP" gate="G$1" pin="4"/>
-<wire x1="55.88" y1="66.04" x2="57.15" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="66.04" x2="57.15" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="PROG_JUMP" gate="G$1" pin="6"/>
 <wire x1="55.88" y1="63.5" x2="57.15" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="63.5" x2="57.15" y2="64.77" width="0.1524" layer="91"/>
-<junction x="57.15" y="64.77"/>
+<wire x1="57.15" y1="63.5" x2="59.69" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="63.5" x2="59.69" y2="62.23" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="PROG_JUMP" gate="G$1" pin="6"/>
+<pinref part="PROG_JUMP" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="68.58" x2="57.15" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="68.58" x2="57.15" y2="63.5" width="0.1524" layer="91"/>
+<junction x="57.15" y="63.5"/>
 </segment>
 <segment>
 <pinref part="QBS_" gate="P" pin="VSS"/>
@@ -3120,9 +3119,9 @@ SMT- SWCH-08247</description>
 <label x="107.95" y="137.16" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PROG_JUMP" gate="G$1" pin="3"/>
-<wire x1="40.64" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
-<label x="38.1" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="PROG_JUMP" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
+<label x="38.1" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -3132,9 +3131,9 @@ SMT- SWCH-08247</description>
 <label x="107.95" y="132.08" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PROG_JUMP" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<label x="38.1" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="PROG_JUMP" gate="G$1" pin="3"/>
+<wire x1="40.64" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<label x="38.1" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
@@ -3158,8 +3157,6 @@ SMT- SWCH-08247</description>
 <approved hash="113,1,25.9927,161.095,PWR_IN,,,,,"/>
 <approved hash="113,1,25.9927,133.155,DRV_PINS,,,,,"/>
 <approved hash="113,1,27.6278,117.915,SENSING_PINS,,,,,"/>
-<approved hash="113,1,117.035,165.777,TX_RX,,,,,"/>
-<approved hash="113,1,48.26,66.2347,PROG_JUMP,,,,,"/>
 </errors>
 </schematic>
 </drawing>
