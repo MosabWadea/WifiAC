@@ -24,11 +24,11 @@ down = 5 -- GPIO14
 ----------------
 
 --configure input pins as pullup
-gpio.mode(p59, gpio.INPUT, PULLUP)
-gpio.mode(p58, gpio.INPUT, PULLUP)
-gpio.mode(p5, gpio.INPUT, PULLUP)
-gpio.mode(p6, gpio.INPUT, PULLUP)
-gpio.mode(p7, gpio.INPUT, PULLUP)
+gpio.mode(p59, gpio.INPUT, gpio.PULLUP)
+gpio.mode(p58, gpio.INPUT, gpio.PULLUP)
+gpio.mode(p5, gpio.INPUT, gpio.PULLUP)
+gpio.mode(p6, gpio.INPUT, gpio.PULLUP)
+gpio.mode(p7, gpio.INPUT, gpio.PULLUP)
 --configure output pins
 gpio.mode(pwr, gpio.OUTPUT)
 gpio.mode(fan, gpio.OUTPUT)
