@@ -2785,8 +2785,8 @@ SMT- SWCH-08247</description>
 <plain>
 <text x="176.53" y="88.9" size="1.6764" layer="97">pwr</text>
 <text x="224.79" y="88.9" size="1.6764" layer="97">fan</text>
-<text x="224.79" y="62.23" size="1.6764" layer="97">up</text>
-<text x="176.53" y="62.23" size="1.6764" layer="97">down</text>
+<text x="224.79" y="62.23" size="1.6764" layer="97">down</text>
+<text x="176.53" y="62.23" size="1.6764" layer="97">up</text>
 <wire x1="0" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="94"/>
 <wire x1="71.12" y1="96.52" x2="85.09" y2="96.52" width="0.1524" layer="94"/>
 <wire x1="85.09" y1="96.52" x2="222.25" y2="96.52" width="0.1524" layer="94"/>
@@ -2810,8 +2810,8 @@ SMT- SWCH-08247</description>
 <wire x1="222.25" y1="179.07" x2="222.25" y2="96.52" width="0.1524" layer="94"/>
 <text x="228.6" y="128.27" size="2.54" layer="114">pwr -&gt; GPIO16</text>
 <text x="228.6" y="123.19" size="2.54" layer="114">fan -&gt; GPIO12</text>
-<text x="228.6" y="118.11" size="2.54" layer="114">down -&gt; GPIO13</text>
-<text x="228.6" y="113.03" size="2.54" layer="114">up -&gt; GPIO14</text>
+<text x="228.6" y="118.11" size="2.54" layer="114">up -&gt; GPIO13</text>
+<text x="228.6" y="113.03" size="2.54" layer="114">down -&gt; GPIO14</text>
 <text x="226.06" y="99.06" size="3.81" layer="97" font="vector">Pins_config</text>
 <text x="228.6" y="167.64" size="3.81" layer="114">INPUT PINS</text>
 <text x="228.6" y="133.35" size="3.81" layer="114">OUTPUT PINS</text>

@@ -11,11 +11,11 @@ print(ip)
 temp = 19
 fan = 0
 --assign input pins 
-p58 = 11
-p59 = 7
-p5 = 11 --GPIO9
-p6 = 12 --GPIO10
-p7 = 8
+p58 = 11 --GPIO9
+p59 = 12 --GPIO10
+p5 = 3 --GPIO0
+p6 = 1 --GPIO5
+p7 = 2 --GPIO4
 --assign output pins
 pwr = 0 --GPIO16
 fan = 6 --GPIO12
