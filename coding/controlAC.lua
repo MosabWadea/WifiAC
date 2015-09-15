@@ -51,20 +51,28 @@ srv:listen(80,function(conn)
             end
         end
         buf = buf.."<h1> AC Controller </h1>";
-        buf = buf.."<p>GPIO0 <a href=\"?pin=ON1\"><button>ON</button></a>&nbsp;<a href=\"?pin=OFF1\"><button>OFF</button></a></p>";
-        buf = buf.."<p>GPIO2 <a href=\"?pin=ON2\"><button>ON</button></a>&nbsp;<a href=\"?pin=OFF2\"><button>OFF</button></a></p>";
+        buf = buf.."<p>Switch power <a href=\"?pin=pwr\"><button>POWER</button></a>&nbsp;</p>";
+	buf = buf.."<h1> </h1>";
+	buf = buf.."<h1> </h1>";
+        buf = buf.."<p>Change fan <a href=\"?pin=fan\"><button>FAN</button></a>&nbsp;</p>";
+	buf = buf.."<p>Change temp <a href=\"?pin=down\"><button>-</button></a>&nbsp;<a href=\"?pin=up\"><button>+</button></a></p>";
         local _on,_off = "",""
-        if(_GET.pin == "ON1")then
-              gpio.write(led1, gpio.HIGH);
-        elseif(_GET.pin == "OFF1")then
-              gpio.write(led1, gpio.LOW);
-        elseif(_GET.pin == "ON2")then
-              gpio.write(led2, gpio.HIGH);
-        elseif(_GET.pin == "OFF2")then
-              gpio.write(led2, gpio.LOW);
+        if(_GET.pin == "pwr")then
+              gpio.write(pwr, gpio.HIGH);
+              gpio.write(pwr, gpio.LOW);
+        elseif(_GET.pin == "fan")then
+              gpio.write(fan, gpio.HIGH);
+              gpio.write(fan, gpio.LOW);
+        elseif(_GET.pin == "up")then
+              gpio.write(up, gpio.HIGH);
+              gpio.write(up, gpio.LOW);
+        elseif(_GET.pin == "down")then
+              gpio.write(down, gpio.HIGH);
+              gpio.write(down, gpio.LOW);
         end
         client:send(buf);
         client:close();
+	
         collectgarbage();
     end)
 end)
