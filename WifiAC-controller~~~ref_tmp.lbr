@@ -58,8 +58,8 @@
 <library>
 <packages>
 <package name="_REFERENCE_HOLE_">
-<circle x="-13.97" y="28.575" radius="1.4986" width="0" layer="45"/>
-<circle x="73.66" y="28.575" radius="1.4986" width="0" layer="45"/>
+<circle x="-9.99998125" y="19.999959375" radius="1.4986" width="0" layer="45"/>
+<circle x="69.999859375" y="19.999959375" radius="1.4986" width="0" layer="45"/>
 </package>
 </packages>
 <symbols>
