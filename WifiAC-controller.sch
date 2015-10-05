@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3875,8 +3875,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="VREG" library="SparkFun-PowerIC" deviceset="V_REG_LD1117VXX" device=""/>
-<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="1210" value="0.47u"/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="1210" value="33u"/>
+<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="EZ" value="0.47u"/>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="PTH2" value="33u"/>
 <part name="FTDI_CONN" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
