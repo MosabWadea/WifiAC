@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -4867,21 +4867,21 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="QBS_" library="40xx" deviceset="4066" device="N"/>
-<part name="PWR_IN" library="SparkFun-Connectors" deviceset="M02" device="LOCK_LONGPADS"/>
-<part name="DRV_PINS" library="SparkFun-Connectors" deviceset="M02" device="LOCK_LONGPADS"/>
-<part name="SENSING_PINS" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
+<part name="PWR_IN" library="SparkFun-Connectors" deviceset="M02" device="POLAR"/>
+<part name="DRV_PINS" library="SparkFun-Connectors" deviceset="M02" device="POLAR"/>
+<part name="SENSING_PINS" library="SparkFun-Connectors" deviceset="M03" device="POLAR"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="RST" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-REDUNDANT" value="TAC_SWITCHSMD"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="VREG" library="SparkFun-PowerIC" deviceset="V_REG_LD1117VXX" device=""/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="EZ" value="0.47u"/>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="PTH2" value="33u"/>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.47u"/>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="33u"/>
 <part name="FTDI_CONN" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
-<part name="ESP1" library="SparkFun-Connectors" deviceset="M04X2" device=""/>
+<part name="ESP8266" library="SparkFun-Connectors" deviceset="M04X2" device=""/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2K"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
@@ -4966,7 +4966,7 @@ DWN-&gt;17(D13)</text>
 <instance part="FTDI_CONN" gate="G$1" x="20.32" y="76.2" rot="R180"/>
 <instance part="GND1" gate="1" x="8.89" y="63.5"/>
 <instance part="U1" gate="U$1" x="146.05" y="128.27"/>
-<instance part="ESP1" gate="G$1" x="55.88" y="76.2"/>
+<instance part="ESP8266" gate="G$1" x="55.88" y="76.2"/>
 <instance part="R8" gate="G$1" x="52.07" y="66.04" rot="R180"/>
 <instance part="R7" gate="G$1" x="71.12" y="73.66" rot="R180"/>
 <instance part="R1" gate="G$1" x="109.22" y="165.1" rot="R90"/>
@@ -5013,10 +5013,10 @@ DWN-&gt;17(D13)</text>
 <label x="54.61" y="166.37" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP1" gate="G$1" pin="3"/>
+<pinref part="ESP8266" gate="G$1" pin="3"/>
 <wire x1="48.26" y1="78.74" x2="46.99" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="78.74" x2="46.99" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="ESP1" gate="G$1" pin="7"/>
+<pinref part="ESP8266" gate="G$1" pin="7"/>
 <wire x1="46.99" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="73.66" x2="44.45" y2="73.66" width="0.1524" layer="91"/>
 <junction x="46.99" y="73.66"/>
@@ -5094,7 +5094,7 @@ DWN-&gt;17(D13)</text>
 <wire x1="76.2" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="73.66" x2="78.74" y2="72.39" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="ESP1" gate="G$1" pin="2"/>
+<pinref part="ESP8266" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="81.28" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <junction x="78.74" y="73.66"/>
@@ -5102,9 +5102,9 @@ DWN-&gt;17(D13)</text>
 </net>
 <net name="P58" class="0">
 <segment>
-<pinref part="DRV_PINS" gate="G$1" pin="1"/>
-<wire x1="29.21" y1="135.89" x2="34.29" y2="135.89" width="0.1524" layer="91"/>
-<label x="34.29" y="135.89" size="1.27" layer="95" xref="yes"/>
+<pinref part="DRV_PINS" gate="G$1" pin="2"/>
+<wire x1="29.21" y1="133.35" x2="34.29" y2="133.35" width="0.1524" layer="91"/>
+<label x="34.29" y="133.35" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="QBS_" gate="B" pin="A"/>
@@ -5119,9 +5119,9 @@ DWN-&gt;17(D13)</text>
 </net>
 <net name="P59" class="0">
 <segment>
-<pinref part="DRV_PINS" gate="G$1" pin="2"/>
-<wire x1="29.21" y1="133.35" x2="34.29" y2="133.35" width="0.1524" layer="91"/>
-<label x="34.29" y="133.35" size="1.27" layer="95" xref="yes"/>
+<pinref part="DRV_PINS" gate="G$1" pin="1"/>
+<wire x1="29.21" y1="135.89" x2="34.29" y2="135.89" width="0.1524" layer="91"/>
+<label x="34.29" y="135.89" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="QBS_" gate="A" pin="A"/>
@@ -5260,7 +5260,7 @@ DWN-&gt;17(D13)</text>
 <label x="170.18" y="135.89" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP1" gate="G$1" pin="1"/>
+<pinref part="ESP8266" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="81.28" x2="44.45" y2="81.28" width="0.1524" layer="91"/>
 <label x="44.45" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -5388,7 +5388,7 @@ DWN-&gt;17(D13)</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="ESP1" gate="G$1" pin="8"/>
+<pinref part="ESP8266" gate="G$1" pin="8"/>
 <wire x1="63.5" y1="73.66" x2="64.77" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="64.77" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
